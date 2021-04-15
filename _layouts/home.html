@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="images/imagecpp528.png" alt="hi" class="inline"/>
+<img src="../assets/imagecpp528.png" alt="hi" class="inline"/>
 {% if site.show_excerpts and page.name == "index.html" %}
 {% for page in paginator.posts %}
 <article>
@@ -28,6 +28,7 @@ layout: default
 <article class="archive">
   {{ content }}
   <header><h1>Table of Contents</h1></header>
+  <img src="../assets/imagecpp528.png" alt="hi" class="inline"/>
   {% assign counter = 0 %}
   {% for post in site.posts reversed %}
   {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
