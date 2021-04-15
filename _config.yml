@@ -8,27 +8,67 @@ date_format: "%B %d, %Y"
 
 # Layout
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: false          # adds a gray frame to the site
-show_sidebar: true        # show a sidebar instead of the usual header
-minimal: false             # hide the box-shadow from header and footer
+# show_excerpts: true        # show article excerpts on the home page
+#show_frame: false          # adds a gray frame to the site
+#show_sidebar: true        # show a sidebar instead of the usual header
+#minimal: false             # hide the box-shadow from header and footer
 
 # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+#navigation:                # accepts {file, title, url, icon, sidebaricon}
+ # - {file: "index.html"}
+ # - {file: "README.md"}
 
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+#external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+ # - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
+ # - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+ # - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
-comments:
+#comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
-plugins:
+#plugins:
+# - jekyll-feed
+
+# Jekyll settings
+permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
+paginate: 2                  # number of articles per page, remove to disable pagination
+excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
+
+# Theme settings
+# show_excerpts: false         # show article previews on the home page instead of headlines
+# date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
+# dark_theme: true             # enables dark mode
+# dark_header: false           # uses dark header whether dark_theme is enabled or not
+# minimal_theme: true          # radically minimalistic theme
+
+show_excerpts: false        # show article excerpts on the home page
+show_frame: false           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: false             # hide the box-shadow from header and footer
+
+navigation:                  # show navigation links in the header	
+  - index.html
+  - about.md
+
+
+icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
+  # envelope: "mailto:niklasbuschmann@users.noreply.github.com"
+  # github: "https://github.com/R-Class/cpp-528-template/edit/main/"
+  
+  
+comments:                    # embed disqus or isso comments
+#  disqus: "disqus-contrast"
+#  isso: "comments.mysite.org"
+
+remote_theme: niklasbuschmann/contrast
+
+plugins: 
+ - jekyll-remote-theme
  - jekyll-feed
+ - jekyll-paginate
+ - jekyll-default-layout
+
 
