@@ -19,6 +19,8 @@ show_frame: false           # adds a gray frame to the site
 show_sidebar: true        # show a sidebar instead of the usual header
 minimal: false             # hide the box-shadow from header and footer
 
+avatar: "/assets/imagecpp528.png"
+
 navigation:                  # show navigation links in the header	
   - index.html
   - about.md
