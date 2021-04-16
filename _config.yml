@@ -24,7 +24,6 @@ navigation:                  # show navigation links in the header
   - index.html
   - about.md
 
-navbar-col: "#364daa"
 
 icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
   # envelope: "mailto:niklasbuschmann@users.noreply.github.com"
@@ -42,3 +41,5 @@ plugins:
  - jekyll-feed
  #- jekyll-paginate
  #- jekyll-default-layout
+ 
+ theme: jekyll-theme-architect
