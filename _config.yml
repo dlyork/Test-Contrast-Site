@@ -38,7 +38,7 @@ comments:                    # embed disqus or isso comments
 
 plugins: 
  #- jekyll-remote-theme
- - jekyll-feed
+ #- jekyll-feed
  #- jekyll-paginate
  #- jekyll-default-layout
  
