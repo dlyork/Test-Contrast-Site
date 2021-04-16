@@ -36,10 +36,9 @@ comments:                    # embed disqus or isso comments
 
 #remote_theme: niklasbuschmann/contrast
 
-#plugins: 
- #- jekyll-remote-theme
- #- jekyll-feed
- #- jekyll-paginate
- #- jekyll-default-layout
+plugins: 
+ - jekyll-remote-theme
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-default-layout
  
- theme: jekyll-theme-architect
