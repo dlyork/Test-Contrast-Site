@@ -14,7 +14,7 @@ excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lin
 dark_header: true           # uses dark header whether dark_theme is enabled or not
 # minimal_theme: true          # radically minimalistic theme
 
-show_excerpts: true        # show article excerpts on the home page
+show_excerpts: false        # show article excerpts on the home page
 show_frame: false           # adds a gray frame to the site
 show_sidebar: true        # show a sidebar instead of the usual header
 minimal: false             # hide the box-shadow from header and footer
