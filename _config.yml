@@ -23,6 +23,18 @@ minimal: false             # hide the box-shadow from header and footer
 navigation:                  # show navigation links in the header	
   - index.html
   - about.md
+  
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
 
 
 icons:                       # show icons in the header, for all possible icons see http://fontawesome.io/icons/
